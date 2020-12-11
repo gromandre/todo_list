@@ -1,0 +1,179 @@
+.visually-hidden {
+  position: absolute !important;
+
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden;
+
+  border: 0 !important;
+
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial;
+
+  background-color: #ebebeb !important;
+}
+
+main {
+  padding-top: 61px;
+}
+
+.h2_title {
+  margin-bottom: 30px;
+
+  font-size: 21px;
+}
+
+.to-do_list {
+  width: 471px;
+}
+
+.container {
+  justify-content: center;
+}
+
+.is_empty {
+  margin-top: 75px;
+
+  color: #8993ad;
+}
+
+.case_list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.item_list {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.item_list_head {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1px;
+  padding: 18px 20px 18px 20px;
+
+  background-color: #ffffff;
+}
+
+.item_list_head h3 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.item_list_head_box {
+  align-items: center;
+  padding-left: 18px;
+}
+
+.cloze_button {
+  width: 9px;
+  height: 9px;
+  margin-left: 22px;
+
+  background-color: #ffffff;
+  background-image: url(img/clear-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.folding-button {
+  width: 6px;
+  height: 5px;
+
+  background-color: #ffffff;
+  background-image: url(img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.description_1 {
+  height: 80px;
+  margin: 0;
+  padding: 6px 0 0 21px;
+
+  font-size: 14px;
+  color: #8993ad;
+
+  background-color: #ffffff;
+}
+
+.add_new_case {
+  width: 471px;
+}
+
+.add_case {
+  padding: 28px 40px 55px 40px;
+
+  background-color: #ffffff;
+}
+
+.label-name,
+.label-description {
+  width: 100%;
+
+  font-size: 14px;
+  color: #8993ad;
+}
+
+span {
+  margin-left: 4px;
+}
+
+.name {
+  /* Style for "Rectangle" */
+  width: 100%;
+  height: 41px;
+  margin: 8px 0 28px 0;
+
+  font-size: 16px;
+
+  background-color: #fcfcfc;
+  border: 1px solid #ebebeb;
+}
+
+.description {
+  /* Style for "Rectangle" */
+  width: 100%;
+  height: 227px;
+  margin: 8px 0 0 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-family: Arial;
+
+  background-color: #fcfcfc;
+  border: 1px solid #ebebeb;
+}
+
+.button_add_case {
+  /* Style for "Rectangle" */
+  width: 224px;
+  height: 55px;
+  margin-top: 26px;
+  padding: 0;
+
+  font-size: 16px;
+  color: #ffffff;
+
+  background-color: #2174fd;
+  border: none;
+}
+
+.error {
+  border-color: red;
+}
